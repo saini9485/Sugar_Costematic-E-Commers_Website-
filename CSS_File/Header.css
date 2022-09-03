@@ -129,7 +129,7 @@ a {
 .navlogin {
   display: flex;
   align-items: center;
-  background-color: #d1d1d1;
+  background-color: white;
   height: 40px;
   list-style: node;
   text-decoration: none;
