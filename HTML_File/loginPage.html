@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sighup and Login Page</title>
+    <link rel="stylesheet" href="/CSS_File/loginPage.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="mainLoginPage" style="display:block;">
+      <div class="subLoginPage">
+        <div class="close">
+          <i class="fa fa-window-close" aria-hidden="true"></i>
+        </div>
+        <p id="headlog">Login/Sign Up</p>
+        <div id="loginbox">
+          <div class="boxtop">
+            <p class="loginsign">Login/Sign Up Using Phone</p>
+            <img
+              src="https://in.sugarcosmetics.com/smartphone.svg"
+              alt
+              height="30px"
+              width="30px"
+              class="logmob"
+            />
+          </div>
+          <!-- login input box -->
+          <div class="loginput">
+            <h4 class="contrycode">+91</h4>
+            <input type="text" maxlength="1" class="loginput1"  id="input1"/>
+            <input type="text" maxlength="1" class="loginput1"  id="input2"/>
+            <input type="text" maxlength="1" class="loginput1"  id="input3"/>
+            <input type="text" maxlength="1" class="loginput1"  id="input4"/>
+            <input type="text" maxlength="1" class="loginput1"  id="input5"/>
+            <input type="text" maxlength="1" class="loginput1"  id="input6"/>
+            <input type="text" maxlength="1" class="loginput1"  id="input7"/>
+            <input type="text" maxlength="1" class="loginput1"  id="input8"/>
+            <input type="text" maxlength="1" class="loginput1"  id="input9"/>
+            <input type="text" maxlength="1" class="loginput1"  id="input10"/>
+            <button id="requestptp">Request OTP</button>
+          </div>
+          <!-- input box end  -->
+          <div class="hrline"></div>
+          <!-- OTP Section Area -->
+          <div id="otpsection">
+            <p>Enter the 4 digit OTP received on your phone.</p>
+            <div class="otpbox">
+              <input type="text" class="enterotp enterotp1" id="text1" maxlength="1" onkeyup="move(event , '', 'text1', 'text2',)" />
+              <input type="text" class="enterotp enterotp2" id="text2" maxlength="1" onkeyup="move(event , 'text1', 'text2', 'text3',)" />
+              <input type="text" class="enterotp enterotp3" id="text3" maxlength="1" onkeyup="move(event , 'text2', 'text3', 'text4',)" />
+              <input type="text" class="enterotp enterotp4" id="text4" maxlength="1" onkeyup="move(event , 'text3', 'text4', '',)" />
+              <div>
+                <button id="verify">Verify OTP</button>
+                <span id="incorrect"></span>
+              </div>
+              <!-- OTP Section Close -->
+              <div class="whats">
+                <input type="checkbox" />
+                <p>Get Important Updates on Whatsapp. <a href="#">Terms and Conditions</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- </div> -->
+        <div id="logcontent">
+          <div class="logp">
+            <p>
+              "Registering for this site allows you to access your order status
+              and history. Just fill in the fields below, and we'll get a new
+              account set up for you in no time. We will only ask you for
+              information necessary to make the purchase process faster and
+              easier."
+            </p>
+          </div>
+          <div id="smll">
+            <small class="smll">
+              By Signing up or logging in, you agree to our. <a href="#">Terms and Conditions</p></a>
+              </small
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/JS_File/loginPage.js"></script>
+</html>
