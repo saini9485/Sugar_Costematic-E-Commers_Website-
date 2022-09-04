@@ -35,16 +35,16 @@
           <!-- login input box -->
           <div class="loginput">
             <h4 class="contrycode">+91</h4>
-            <input type="text" maxlength="1" class="loginput1"  id="input1"/>
-            <input type="text" maxlength="1" class="loginput1"  id="input2"/>
-            <input type="text" maxlength="1" class="loginput1"  id="input3"/>
-            <input type="text" maxlength="1" class="loginput1"  id="input4"/>
-            <input type="text" maxlength="1" class="loginput1"  id="input5"/>
-            <input type="text" maxlength="1" class="loginput1"  id="input6"/>
-            <input type="text" maxlength="1" class="loginput1"  id="input7"/>
-            <input type="text" maxlength="1" class="loginput1"  id="input8"/>
-            <input type="text" maxlength="1" class="loginput1"  id="input9"/>
-            <input type="text" maxlength="1" class="loginput1"  id="input10"/>
+            <input type="text" maxlength="1" class="loginput1"  id="input1"  onkeyup="move(event, '', 'input1', 'input2',)"/>
+            <input type="text" maxlength="1" class="loginput1"  id="input2"  onkeyup="move(event, 'input1', 'input2', 'input3',)"/>
+            <input type="text" maxlength="1" class="loginput1"  id="input3" onkeyup="move(event, 'input2', 'input3', 'input4',)"/>
+            <input type="text" maxlength="1" class="loginput1"  id="input4" onkeyup="move(event, 'input3', 'input4', 'input5',)"/>
+            <input type="text" maxlength="1" class="loginput1"  id="input5" onkeyup="move(event, 'input4', 'input5', 'input6',)"/>
+            <input type="text" maxlength="1" class="loginput1"  id="input6" onkeyup="move(event, 'input5', 'input6', 'input7',)"/>
+            <input type="text" maxlength="1" class="loginput1"  id="input7" onkeyup="move(event, 'input6', 'input7', 'input8',)"/>
+            <input type="text" maxlength="1" class="loginput1"  id="input8" onkeyup="move(event, 'input7', 'input8', 'input9',)"/>
+            <input type="text" maxlength="1" class="loginput1"  id="input9" onkeyup="move(event, 'input8', 'input9', 'input10',)"/>
+            <input type="text" maxlength="1" class="loginput1"  id="input10" onkeyup="move(event, 'input9', 'input10', '',)"/>
             <button id="requestptp">Request OTP</button>
           </div>
           <!-- input box end  -->

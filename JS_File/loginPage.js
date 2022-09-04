@@ -1,4 +1,4 @@
-/* OTP Area start JS */
+/*1.  JS Start For INPUT And OTP FOR next And Previous */
 
 function move(e,p,c,n){
     // console.log(e)
@@ -19,4 +19,6 @@ if(e.key=="Backspace"){
 }
 // console.log(e.key)
 }
-/* OTP Area end JS */
+/*1.  JS End For INPUT And OTP FOR next And Previous */
+
+
