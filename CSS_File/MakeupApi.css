@@ -1,0 +1,35 @@
+*{
+    paddin:0;
+    margin: 0;
+}
+.main{
+    display: flex;
+    text-align: center;
+     justify-content: center;  
+    flex-direction: column;
+    padding-top: 10px;
+    margin-left: 5px;
+
+    
+    
+}
+
+ .search {
+    border: 3px solid green;
+    border-radius: 10px;
+    background-color: rgb(232, 232, 243);
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+ }
+ .submitButton{
+    border-radius: 10px;
+    border: 3px solid black;
+    font-size: larger;
+    font-weight: bold;
+ }
+ .submitButton:hover{
+    background-color: blue;
+    color: rgb(222, 222, 236);
+    transition: .5s;
+ }

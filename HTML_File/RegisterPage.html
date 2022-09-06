@@ -14,12 +14,12 @@
 <body>
     <div id="MainRegisterPage" style="display: block;">
         <div id="subRegisterPage">
-            <div id="close">
+            <div id="close" onclick="closed ()" >
                 <i class="fa-solid fa-xmark"></i>
             </div>
-            <a href="#">
+            <a href="#"></a>
                 <p id="headlog">Login/Sign Up</p>
-            </a>
+          
             <div id="Registerbox">
                 <div class="boxtop">
                     <img src="https://in.sugarcosmetics.com/smartphone.svg" alt height="30px" width="30px"
@@ -45,10 +45,10 @@
 
                 <div id="infoinput">
                     <div class="infoname">
-                        <input type="text" maxlength="9" placeholder="First-Name" id="username" required>
+                        <input type="text" maxlength="9" placeholder="First-Name" id="userfirstname" required>
                     </div>
                     <div class="infoname">
-                        <input type="text" maxlength="9" placeholder="Middle-Name" id="username" required>
+                        <input type="text" maxlength="9" placeholder="Middle-Name" id="usermiddle" required>
                     </div>
                     <div class="infoname">
                         <input type="text" maxlength="9" placeholder="Last-Name" id="userlastname" required>
@@ -57,7 +57,7 @@
                 <div id="infoemail">
                     <input type="email" placeholder="Email Address">
                 </div>
-                <div id="savebtn">Save and Continue</div>
+                <div id="savebtn" onclick="succeful ()">Save and Continue</div>
             </div>
             <div id="logcontent">
                 <div class="logp">
@@ -67,11 +67,17 @@
                         information necessary to make the purchase process faster and easier."
                     </p>
                 </div>
-                <div id="smll">
-                    <small class="smll">By Signing up or logging in, you agree to our.<a href="#">Terms and
+                <div id="small">
+                    <small class="small">By Signing up or logging in, you agree to our.<a href="#">Terms and
                             Conditions</small></a>
                 </div>
-            </div>
+            </div> -->
+
+            <!-- ok Container-->
+        </div>
+        <div id="container" style="display: none";> 
+            <h1> hi Congratulation, Your Account is created successful  <button class="ok" onclick="okay ()">Ok</button>          </h1>
+            
         </div>
 </body>
 <script src="/JS_File/RegisterPage.js"></script>

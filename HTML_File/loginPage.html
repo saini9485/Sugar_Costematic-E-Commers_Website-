@@ -47,7 +47,7 @@
             onkeyup="move(event, 'input8', 'input9', 'input10',)" />
           <input type="text" maxlength="1" class="loginput1" id="input10"
             onkeyup="move(event, 'input9', 'input10', '',)" />
-          <Request id="requestptp">Request OTP</button>
+          <button id="requestptp " onclick="OTP()">Request OTP</button>
         </div>
         <!-- input box end  -->
         <div class="hrline"></div>
@@ -64,7 +64,7 @@
             <input type="text" class="enterotp enterotp4" id="text4" maxlength="1"
               onkeyup="move(event , 'text3', 'text4', '',)" />
             <div>
-              <button id="verify">Verify OTP</button>
+              <button id="verify" onclick="Verify()">Verify OTP</button>
               <span id="incorrect"></span>
             </div>
             <!-- OTP Section Close -->

@@ -20,6 +20,8 @@
   background-position: 50%;
   background-size: cover;
   padding: 25px;
+  /* background-color: aqua; */
+  margin-left: 100%; 
 }
 .close {
   color: white;
@@ -85,6 +87,8 @@
   padding: 15px;
   border: none;
   cursor: pointer;
+  background-color: beige;
+  border-radius: 10px;
 }
 /* input box end */
 

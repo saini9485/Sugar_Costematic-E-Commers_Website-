@@ -158,20 +158,25 @@ a {
   list-style: none;
   color: black;
 }
+
 .menu-bar ul li {
   width: 100%;
   margin: 10px;
   padding: 10px;
 }
+/* .menu-bar ul li:hover{
+  background-color: aqua;
+  color: rebeccapurple;
+} */
 .menu-bar ul li a {
   text-decoration: none;
-  color: black;
+  color: rgba(24, 23, 23, 0.967);
  
 }
 .menu-bar ul li a:hover{
-    font-weight: bold;
+ color: black;
 }
-.active,
+
 .menu-bar ul li :hover {
   /* background-color: #e4e9e3; */
   border-radius: 2px;
@@ -204,15 +209,15 @@ a {
   text-align: left;
   margin-right: 0px;
 }
-.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+/* .menu-bar ul li:hover .sub-menu-1 ul li:last-child {
   border-bottom: none;
-}
-.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+} */
+/* .menu-bar ul li:hover .sub-menu-1 ul li a:hover {
   color: black;
-}
-.fa-angle-right {
+} */
+/* .fa-angle-right {
   float: right;
-}
+} */
 
 /* sub-menu-2 start */
 

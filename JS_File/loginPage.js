@@ -17,27 +17,33 @@ if(e.key=="Backspace"){
 /*1.  JS End For INPUT And OTP FOR next And Previous */
 
 
-/*OTP Random Otp  Genration */
-  let requestOtp1 = document.getElementByIdName("requestptp");
- requestOtp1.addEventListener("click", function () {
-  let randomOtp = Math.random();
+/*Request Random Otp  Genration */
+function OTP(){
+//if("loginput"=="maxlength"){
+    let randomOtp = Math.random();
   //let randomNumber = Math.floor(Math.random()*(10-1)+1)
   randomOtp = Math.floor(randomOtp * 10000);
-  alert("One Time Password:-"+ randomOtp);
-  console.log(randomOtp); 
-});
+  console.log("One Time Password:-"+ randomOtp);
+ let reotp= localStorage.setItem("One Time Password:-",randomOtp)
+ console.log(reotp)
+ localStorage.clear()
+ let getotp = localStorage.getItem("One Time Password:-")
+ console.log(getotp)
+  if("reotp"=="getotp"){
+    alert("match")
+ }else{
+    alert("not")
+ }
 
-    
-// let login =  document.getElementsByName("#requestptp");
+}
 
-/*close Area */
-// let closed = document.querySelector(".close");
-// let mainLogin = document.querySelector(".mainLoginPage")
+//}
+/*Verify OTP */
+function Verify(){
+    alert("Verify OTP")
+}
+   
 
-// closed.addEventListener("click", function () {
-//     if( mainLogin.style.display="block"){
-//         mainLogin.style.display="none"
-//     } 
-//   });
+
 
   
