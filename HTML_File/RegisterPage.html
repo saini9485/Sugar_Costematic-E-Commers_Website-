@@ -12,6 +12,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+
     <div id="MainRegisterPage" style="display: block;">
         <div id="subRegisterPage">
             <div id="close" onclick="closed ()" >
@@ -42,23 +43,24 @@
                 </div>
                 <div class="infohrline"></div>
                 <p class="detail">Or Enter Account Details</p>
-
+                   <form action="./myaction.js" name="myForm" onsubmit="return validateform()" method="post">
                 <div id="infoinput">
-                    <div class="infoname">
-                        <input type="text" maxlength="9" placeholder="First-Name" id="userfirstname" required>
+                    <div class="infoname" id="First-Name">
+                        <input type="text" maxlength="9" placeholder="First-Name" class="formerror" required>
                     </div>
-                    <div class="infoname">
-                        <input type="text" maxlength="9" placeholder="Middle-Name" id="usermiddle" required>
+                    <div class="infoname" id="Middle-Name">
+                        <input type="text" maxlength="9" placeholder="Middle-Name" class="formerror" required>
                     </div>
-                    <div class="infoname">
-                        <input type="text" maxlength="9" placeholder="Last-Name" id="userlastname" required>
+                    <div class="infoname" id="Middle-Name">
+                        <input type="text" maxlength="9" placeholder="Last-Name" class="formerror" required>
                     </div>
                 </div>
-                <div id="infoemail">
-                    <input type="email" placeholder="Email Address">
+                <div id="infoemail" id="Middle-Name">
+                    <input type="email" placeholder="Middle-Name">
                 </div>
                 <div id="savebtn" onclick="succeful ()">Save and Continue</div>
             </div>
+        </form>
             <div id="logcontent">
                 <div class="logp">
                     <p>

@@ -26,7 +26,7 @@ function OTP(){
   console.log("One Time Password:-"+ randomOtp);
  let reotp= localStorage.setItem("One Time Password:-",randomOtp)
  console.log(reotp)
- localStorage.clear()
+ //localStorage.clear()
  let getotp = localStorage.getItem("One Time Password:-")
  console.log(getotp)
   if("reotp"=="getotp"){
