@@ -16,7 +16,7 @@ if(e.key=="Backspace"){
 }
 /*1.  JS End For INPUT And OTP FOR next And Previous */
 
-
+//value.length==maxlength
 /*Request Random Otp  Genration */
 function OTP(){
 //if("loginput"=="maxlength"){

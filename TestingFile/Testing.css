@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100&family=Inter:wght@200;700&family=Nunito+Sans:wght@200&family=Open+Sans:wght@300;400&family=Poppins:wght@200;300;500&family=Quicksand:wght@300&family=Ubuntu:wght@500&display=swap');      
+*{
+  font-family:Quicksand ;
+}
+ #box{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+     justify-content: center;
+     text-align: center;
+     padding: 10px;
+     height: 330px;
+    
+
+}
+ 
+ #box:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  
+}
+#shade1{
+    font-size: 19px;
+}
+
+ #container{
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     gap: 50px;
+     width: 80%;
+     margin: auto;
+     
+ }
+ body{
+     background-color: rgb(244, 250, 250);
+ }
+ h4{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(15, 15, 15);
+ }
+ #head{
+     margin-left: 10%;
+ }
+ #icon{
+     height: 12px;
+ }
+ #div2{
+     display: flex;
+     justify-content: space-between;
+ }
+ #rating{
+     margin-right: 5px;
+     font-size: 15px;
+ }
+ #bot_div{
+     display: flex;
+     background-color: rgb(56, 55, 55);
+     height: 25px;
+     border: 1px solid black;
+     margin: 1px;
+    /* visibility: hidden; */
+    margin-top: -2px;
+    cursor: pointer;
+    
+ }
+ #img1{
+     cursor: pointer;
+ }
+ #bot_div >img{
+     height: 25px;
+    padding-left: 20p;
+ }
+ #bot_div>p{
+    margin-left: 40px;
+    margin-top: 6px;
+     color: white;
+     font-size: 11px;
+     font-family: 'Quicksand', sans-serif; 
+ }
+
+#box:hover +#bot_div {
+
+   
+    visibility: visible;
+}
+/* #bot_div:hover {
+    visibility: visible;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+} */
+#header{
+    margin-left: 85px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+#home_btn{
+    display: flex;
+    margin-left: 82px;
+    font-size: 18px;
+    
+}
+#makeup_page{
+    margin-left: 10px;
+  
+    text-decoration: none;
+    color: black;
+}
+#home{
+    margin-right: 10px;
+  
+}
+#filter{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 130px;
+    margin-top: 20px;
+}
+#sort{
+    margin-left: 20px;
+}
+#filter1{
+    cursor: pointer;
+}
+ #filter2{
+     cursor: pointer;
+     
+ } 
+ #sortt{
+     margin-left: 86.5%;
+     cursor: pointer;
+ 
+ }
+ #filter2:hover +#sortt{
+   visibility: visible;
+   
+ }
+ 

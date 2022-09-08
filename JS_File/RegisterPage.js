@@ -4,7 +4,7 @@
  function succeful (){
 //    // MainRegisterPage.style.display="none"
 //    // container.style.display="block"
-//    //if("userfirstname.length>5"){
+//    //if("userfirstname.length>5"){ 
 
      alert("  congratulation Account Created successful")
 //    //}else {
@@ -18,6 +18,8 @@
 /*Close Function */
 function closed (){
     MainRegisterPage.style.display="none"
+    MainRegisterPage.style.transform="translateX(710px)";   
+    MainRegisterPage.style.transition="2s";  
 }
 
 // Ok For Js 
@@ -35,7 +37,7 @@ function seterror(id, error){
 function validateform(){
     var returnval =true;
     var name = document.form["myForm"]["First-Name"].value
-    if(name.length<5){
+    if(name.length<8){
         seterror("name","length is too sort")
     }
     return returnval;
