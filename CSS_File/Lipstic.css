@@ -1,0 +1,101 @@
+*{
+    paddin:0;
+    margin: 0;
+}
+body{
+   padding: 0%;
+   margin: 0%;
+   background-color: aliceblue;
+}
+.main{
+    display: flex;
+    text-align: center;
+     justify-content: center;  
+    flex-direction: column;
+    padding-top: 10px;
+    margin-left: 5px;
+   
+}
+
+ .search {
+    border: 3px solid green;
+    border-radius: 10px;
+    background-color: rgb(232, 232, 243);
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+ }
+ .submitButton{
+    border-radius: 10px;
+    border: 3px solid black;
+    font-size: larger;
+    font-weight: bold;
+ }
+ .submitButton:hover{
+    background-color: blue;
+    color: rgb(222, 222, 236);
+    transition: .5s;
+ }
+
+
+ /* Makeup CSS */
+
+ h1{
+margin-left: 60px;
+ }
+button{
+   cursor: pointer;
+   border-radius: 5px;
+}
+ .Makeup{
+   width: 330px;
+   border-radius:10px;
+   margin: 10px;
+   display: flex;
+display: inline-flex;
+cursor: pointer;
+   
+}
+
+ .box {
+   box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+   justify-content: center;
+   text-align: center;
+   padding: 10px;
+   height: 350px;
+   background-color: white;
+   border-radius: 15px;
+  
+}
+  #bot_div {
+    display: flex;
+    background-color: rgb(56, 55, 55);
+    height: -959px;
+    border: 1px solid black;
+    margin: 1px;
+    margin-top: -2px;
+    cursor: pointer;
+    flex-wrap: wrap;  
+    margin-left: 15px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-radius: 8px;
+   
+}
+
+.like{
+   height: 25px;
+   border-radius: 8px;
+   
+}
+
+img {
+     height: 250px;    
+}
+h4 {
+    margin-left: 65px;
+    color: white;
+    font-size: 15px;
+    margin-top: 3px;
+    font-family: 'Quicksand', sans-serif;
+}

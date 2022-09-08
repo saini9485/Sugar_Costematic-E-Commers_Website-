@@ -9,7 +9,7 @@ btn1.addEventListener("click", function (event) {
     .then((data) => {
       console.log(data)
       container.innerHTML = "";
-      for (let i = 50; i < 100; i++) {
+      for (let i =115; i < 135; i++) { 
         let makeup = data[i];
         //console.log(makeup)
         let result = `<div class ="Makeup"> 
