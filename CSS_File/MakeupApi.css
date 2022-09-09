@@ -39,6 +39,22 @@ body{
 
 
  /* Makeup CSS */
+.home-gifting-bar {
+    display: flex;
+    background-color: white;
+    margin-top: -5px;
+    width: 100%;
+}
+.home, .ico {
+    color: gray;
+}
+.common {
+    margin-right: 20px;
+    margin: 20px;
+}
+.fa-solid, .fas {
+    font-weight: 900;
+}
 
  h1{
 margin-left: 60px;
@@ -62,40 +78,40 @@ cursor: pointer;
    justify-content: center;
    text-align: center;
    padding: 10px;
-   height: 350px;
+   height: 370px;
    background-color: white;
    border-radius: 15px;
   
-}
-  #bot_div {
-    display: flex;
-    background-color: rgb(56, 55, 55);
-    height: -959px;
-    border: 1px solid black;
-    margin: 1px;
-    margin-top: -2px;
-    cursor: pointer;
-    flex-wrap: wrap;  
-    margin-left: 15px;
-    margin-top: 6px;
-    margin-bottom: 6px;
-    border-radius: 8px;
-   
-}
-
-.like{
-   height: 25px;
-   border-radius: 8px;
-   
 }
 
 img {
      height: 250px;    
 }
-h4 {
-    margin-left: 65px;
-    color: white;
-    font-size: 15px;
-    margin-top: 3px;
-    font-family: 'Quicksand', sans-serif;
+
+ .heart-btn{
+   display: flex;
+   justify-content:space-evenly
+  
 }
+
+.heart{
+   font-size:25px ;
+   margin-top: 20px;
+   border: 1px solid black;
+   padding: 7px;
+   border-radius: 8px;
+  
+}
+.btn{
+ margin-top: 15px;
+padding: 13px;
+font-size: 15px;
+font-weight: bolder;
+border-radius: 12px;
+color: white;
+background-color: black;
+width: 140px;
+height: 20px;
+
+
+} 
