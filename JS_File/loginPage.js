@@ -23,17 +23,18 @@ function OTP(){
     let randomOtp = Math.random();
   //let randomNumber = Math.floor(Math.random()*(10-1)+1)
   randomOtp = Math.floor(randomOtp * 10000);
-  console.log("One Time Password:-"+ randomOtp);
- let reotp= localStorage.setItem("One Time Password:-",randomOtp)
- console.log(reotp)
- //localStorage.clear()
- let getotp = localStorage.getItem("One Time Password:-")
- console.log(getotp)
-  if("reotp"=="getotp"){
-    alert("match")
- }else{
-    alert("not")
- }
+  alert("One Time Password:-"+ randomOtp);
+
+  let reotp= localStorage.setItem("One Time Password:-",randomOtp)
+//  console.log(reotp)
+//  //localStorage.clear()
+  //let getotp = localStorage.getItem("One Time Password:-")
+//  console.log(getotp)
+//   if("reotp"=="getotp"){
+//     alert("match")
+//  }else{
+//     alert("not")
+//  }
 
 }
 

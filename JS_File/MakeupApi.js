@@ -1,13 +1,13 @@
-var input = document.querySelector(".search");
-var btn1 = document.querySelector(".submitButton");
+// var input = document.querySelector(".search");
+// var btn1 = document.querySelector(".submitButton");
 let container = document.querySelector(".container");
-btn1.addEventListener("click", function (event) {
+// addEventListener("click", function (event) {
   fetch(
-    ` http://makeup-api.herokuapp.com/api/v1/products.json?brand=${input.value}`
+    ` http://makeup-api.herokuapp.com/api/v1/products.json?`
   ) //fetching api data
     .then((response) => response.json()) //text --> json
     .then((data) => {
-      //console.log(data)
+      console.log(data)
       container.innerHTML = "";
       for (let i = 100; i < 150; i++) {
         let makeup = data[i];
@@ -19,10 +19,9 @@ btn1.addEventListener("click", function (event) {
              <h2 class="Makeup_Price">  Price ${makeup.price_sign} ${makeup.price}</h2>
                 <p> rating<i class="fa fa-star" aria-hidden="true"></i>4.6
                  (125)</p> 
-                 
                  <div class="heart-btn">
                  <div class="heart"><i class="fa-regular fa-heart"></i></div>
-                 <div class="btn"><h4>Add To Cart</h4></div>
+                 <div class="btn"><h4 style="color:white">Add To Cart</h4></a></div>
              </div>
 
         </div>`;
@@ -45,4 +44,4 @@ btn1.addEventListener("click", function (event) {
       }
     });
   // .catch((err) => alert("Nothing found"));
-});
+//});

@@ -17,26 +17,6 @@ body{
    
 }
 
- .search {
-    border: 3px solid green;
-    border-radius: 10px;
-    background-color: rgb(232, 232, 243);
-    font-size: larger;
-    font-weight: bold;
-    text-align: center;
- }
- .submitButton{
-    border-radius: 10px;
-    border: 3px solid black;
-    font-size: larger;
-    font-weight: bold;
- }
- .submitButton:hover{
-    background-color: blue;
-    color: rgb(222, 222, 236);
-    transition: .5s;
- }
-
 
  /* Makeup CSS */
 .home-gifting-bar {
@@ -56,9 +36,6 @@ body{
     font-weight: 900;
 }
 
- h1{
-margin-left: 60px;
- }
 button{
    cursor: pointer;
    border-radius: 5px;
@@ -102,6 +79,9 @@ img {
    border-radius: 8px;
   
 }
+.fa-heart:hover{
+   background-color: red;
+}
 .btn{
  margin-top: 15px;
 padding: 13px;
@@ -112,6 +92,6 @@ color: white;
 background-color: black;
 width: 140px;
 height: 20px;
-
-
 } 
+
+

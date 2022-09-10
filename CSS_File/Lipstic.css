@@ -40,6 +40,26 @@ body{
 
  /* Makeup CSS */
 
+ .home-gifting-bar {
+   display: flex;
+   background-color: white;
+   margin-top: -5px;
+   width: 100%;
+}
+.home, .ico {
+   color: gray;
+}
+.common {
+   margin-right: 20px;
+   margin: 20px;
+}
+.fa-solid, .fas {
+   font-weight: 900;
+}
+
+
+
+
  h1{
 margin-left: 60px;
  }
