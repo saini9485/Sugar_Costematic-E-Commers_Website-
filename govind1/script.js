@@ -53,7 +53,7 @@ skincare.addEventListener("click", function (event) {
     .then((data) => {
       console.log(data)
       container.innerHTML = "";
-      for (let i = 110; i < 150; i++) {
+      for (let i = 110; i < 140; i++) {
         let makeup = data[i];
         //console.log(makeup)
         let result = `
@@ -84,7 +84,7 @@ moisture.onclick = function () {
     .then((data) => {
       console.log(data)
       container.innerHTML = "";
-      for (let i = 150; i < 200; i++) {
+      for (let i = 150; i < 170; i++) {
         let makeup = data[i];
         //console.log(makeup)
         let result = `
@@ -113,7 +113,7 @@ sunscream.addEventListener("click", function () {
     .then((data) => {
       console.log(data)
       container.innerHTML = "";
-      for (let i = 11; i < 80; i++) {
+      for (let i = 11; i < 31; i++) {
         let makeup = data[i];
         //console.log(makeup)
         let result = `
@@ -142,7 +142,7 @@ setting.addEventListener("click", function (event) {
     .then((data) => {
       console.log(data)
       container.innerHTML = "";
-      for (let i = 90; i < 100; i++) {
+      for (let i = 90; i < 110; i++) {
         let makeup = data[i];
         //console.log(makeup)
         let result = `
@@ -171,7 +171,7 @@ cofee.addEventListener("click", function (event) {
     .then((data) => {
       console.log(data)
       container.innerHTML = "";
-      for (let i = 0; i < 50; i++) {
+      for (let i = 0; i < 20; i++) {
         let makeup = data[i];
         //console.log(makeup)
         let result = `
@@ -200,7 +200,7 @@ citrus.addEventListener("click", function (event) {
     .then((data) => {
       console.log(data)
       container.innerHTML = "";
-      for (let i = 30; i < 70; i++) {
+      for (let i = 30; i < 50; i++) {
         let makeup = data[i];
         //console.log(makeup)
         let result = `
@@ -229,7 +229,7 @@ sheet.addEventListener("click", function (event) {
     .then((data) => {
       console.log(data)
       container.innerHTML = "";
-      for (let i = 110; i < 150; i++) {
+      for (let i = 110; i < 130; i++) {
         let makeup = data[i];
         //console.log(makeup)
         let result = `
@@ -258,7 +258,7 @@ aquaholic.addEventListener("click", function (event) {
     .then((data) => {
       console.log(data)
       container.innerHTML = "";
-      for (let i = 110; i < 150; i++) {
+      for (let i = 110; i < 130; i++) {
         let makeup = data[i];
         //console.log(makeup)
         let result = `
@@ -291,6 +291,9 @@ aquaholic.addEventListener("click", function (event) {
 // wishlist.addEventListener("click",function(){
 //   wishlist.style.color="red";
 // })
+
+//sorting 
+
 
 
 

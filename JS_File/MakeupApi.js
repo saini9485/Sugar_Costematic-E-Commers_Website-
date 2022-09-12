@@ -2,6 +2,7 @@
 // var btn1 = document.querySelector(".submitButton");
 let container = document.querySelector(".container");
 // addEventListener("click", function (event) {
+  // function Cart_Div (){  
   fetch(
     ` http://makeup-api.herokuapp.com/api/v1/products.json?`
   ) //fetching api data
@@ -19,6 +20,7 @@ let container = document.querySelector(".container");
              <h2 class="Makeup_Price">  Price ${makeup.price_sign} ${makeup.price}</h2>
                 <p> rating<i class="fa fa-star" aria-hidden="true"></i>4.6
                  (125)</p> 
+
                  <div class="heart-btn">
                  <div class="heart"><i class="fa-regular fa-heart"></i></div>
                  <div class="btn"><a href ="/TestingFile/Cart.html"><h4 style="color:white">Add To Cart</h4></a></a></div>
@@ -43,5 +45,6 @@ let container = document.querySelector(".container");
         container.innerHTML += result;
       }
     });
+ // }
   // .catch((err) => alert("Nothing found"));
 //});
