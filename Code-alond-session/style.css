@@ -18,6 +18,7 @@ header{
     font-size: xxx-large;
     margin-left: 10px;
     margin-top: 15px;
+    cursor: pointer;
 }
 .cart{
     font-size: xx-large;
@@ -25,11 +26,13 @@ header{
     margin-top: 20px;
     border: none;
     background-color: transparent;
+    cursor: pointer;
 }
 main {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     overflow-y: scroll;
+    cursor: pointer;
 }
 main .movie {
     position: relative;
@@ -39,6 +42,7 @@ main .movie {
     justify-content: center;
     margin: 10px;
     border: 1px solid black;
+    cursor: pointer;
 }
 main .movie img {
     height: 300px;
@@ -58,6 +62,7 @@ main .movie h2 {
     height: 25px;
     width: 50px;
     margin-right: 5px;
+    cursor: pointer;
 }
 .oneItemInCart{
     display: flex;
@@ -69,6 +74,7 @@ main .movie h2 {
     margin: 0;
     padding: 0;
     text-align: center
+    
   }
   #pagination li {
     display: inline
