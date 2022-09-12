@@ -21,7 +21,7 @@ let container = document.querySelector(".container");
                  (125)</p> 
                  <div class="heart-btn">
                  <div class="heart"><i class="fa-regular fa-heart"></i></div>
-                 <div class="btn"><h4 style="color:white">Add To Cart</h4></a></div>
+                 <div class="btn"><a href ="/TestingFile/Cart.html"><h4 style="color:white">Add To Cart</h4></a></a></div>
              </div>
 
         </div>`;
