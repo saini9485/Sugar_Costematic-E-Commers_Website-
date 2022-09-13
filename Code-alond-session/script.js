@@ -81,7 +81,7 @@ function cart_button(){
         </div>
         `
     })
-}
+ }
 
 
 function add_item(e){
@@ -176,4 +176,4 @@ async function page_changing(e){
     await api_calling(page);
     main.innerHTML = ""
     movie_mapping(data);
-}
+ }
