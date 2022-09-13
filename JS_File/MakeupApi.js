@@ -13,7 +13,7 @@ let container = document.querySelector(".container");
       for (let i = 100; i < 150; i++) {
         let makeup = data[i];
         //console.log(makeup)
-        let result = `<div class ="Makeup"> 
+        let result = `<div class ="Makeup">  
         <div class=box>  
         <img src="${makeup.image_link}" class="image" alt="image" >
              <h5 class="Makeup_Name">  ${makeup.name}</h5

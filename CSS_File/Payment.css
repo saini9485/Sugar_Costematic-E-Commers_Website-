@@ -7,14 +7,14 @@
     background-color: #f5f5f5;
     font-family: Arial, Helvetica, sans-serif;
   }
-  .wrapper{
+  .MainPage{
     background-color: #fff;
     width: 100%;
     padding: 25px;
     margin: 25px auto 0;
     box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
   }
-  .wrapper h2{
+  .MainPage h2{
     background-color: black;
     color: white;
     font-size: 24px;
@@ -135,8 +135,8 @@
     transition: all 0.2s ease;
   }
   .input-box select:focus{
-    background-color: #7ed321;
-    color: #fff;
+    /* background-color: #7ed321; */
+color: black;
     text-align: center;
   }
   button{
