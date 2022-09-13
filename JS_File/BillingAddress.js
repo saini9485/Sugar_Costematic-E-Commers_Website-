@@ -1,3 +1,3 @@
 function billingAddress(){
-    alert("please Complete details")
+    alert("details Completed")
 }
